@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'me.miqhtie'
+version '0.1'
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot:1.16.5-R0.1-SNAPSHOT'
+}
